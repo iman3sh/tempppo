@@ -1,0 +1,1064 @@
+2022-07-03 17:39:06,939 - speechbrain.core - INFO - Beginning experiment!
+2022-07-03 17:39:06,939 - speechbrain.core - INFO - Experiment folder: results/deepmine/1234
+2022-07-03 17:39:07,200 - speechbrain.utils.superpowers - DEBUG - absl-py==1.1.0
+aiohttp==3.8.1
+aiosignal==1.2.0
+antlr4-python3-runtime==4.9.3
+asteroid==0.5.2
+asteroid-filterbanks==0.4.0
+async-timeout==4.0.2
+attrs==21.4.0
+audioread==2.1.9
+cached-property==1.5.2
+cachetools==5.2.0
+certifi==2022.6.15
+cffi==1.15.1
+charset-normalizer==2.1.0
+decorator==5.1.1
+einops==0.4.1
+filelock==3.7.1
+frozenlist==1.3.0
+fsspec==2022.5.0
+future==0.18.2
+google-auth==2.9.0
+google-auth-oauthlib==0.4.6
+grpcio==1.47.0
+huggingface-hub==0.8.1
+HyperPyYAML==1.0.1
+idna==3.3
+importlib-metadata==4.12.0
+joblib==1.1.0
+julius==0.2.6
+librosa==0.7.1
+llvmlite==0.31.0
+Markdown==3.3.7
+mir-eval==0.7
+multidict==6.0.2
+numba==0.48.0
+numpy==1.21.5
+oauthlib==3.2.0
+omegaconf==2.2.2
+packaging==21.3
+pandas==1.4.3
+pb-bss-eval==0.0.2
+pesq==0.0.4
+Pillow==9.2.0
+protobuf==3.19.4
+pyasn1==0.4.8
+pyasn1-modules==0.2.8
+pycparser==2.21
+pyDeprecate==0.3.1
+pyparsing==3.0.9
+pystoi==0.3.3
+python-dateutil==2.8.2
+pytorch-lightning==1.4.9
+pytorch-ranger==0.1.1
+pytz==2022.1
+PyYAML==6.0
+requests==2.28.1
+requests-oauthlib==1.3.1
+resampy==0.3.0
+rsa==4.8
+ruamel.yaml==0.17.21
+ruamel.yaml.clib==0.2.6
+scikit-learn==1.1.1
+scipy==1.8.1
+sentencepiece==0.1.96
+six==1.16.0
+SoundFile==0.10.3.post1
+speechbrain==0.5.8
+tensorboard==2.9.1
+tensorboard-data-server==0.6.1
+tensorboard-plugin-wit==1.8.1
+threadpoolctl==3.1.0
+torch==1.8.1
+torch-optimizer==0.1.0
+torch-stoi==0.1.2
+torchaudio==0.8.1
+torchmetrics==0.9.2
+torchsummary==1.5.1
+torchvision==0.9.1
+tqdm==4.64.0
+typing-extensions==4.3.0
+urllib3==1.26.9
+Werkzeug==2.1.2
+yarl==1.7.2
+zipp==3.8.0
+
+
+2022-07-03 17:39:07,206 - speechbrain.utils.superpowers - DEBUG - 7932705
+
+
+2022-07-03 17:39:23,071 - speechbrain.core - INFO - Info: auto_mix_prec arg overridden by command line input
+2022-07-03 17:39:23,346 - speechbrain.core - INFO - 25.7M trainable parameters in Separation
+2022-07-03 17:39:23,352 - speechbrain.core - ERROR - Exception:
+Traceback (most recent call last):
+  File "/home/shahriari/.local/lib/python3.8/runpy.py", line 194, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/home/shahriari/.local/lib/python3.8/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/mnt/hdd1/shahriari/project/GIT/iterative_bss/method/BSS_input_block/SepFormer/SepFormer/train.py", line 622, in <module>
+    separator.reset_layer_recursively(module)
+  File "/mnt/hdd1/shahriari/project/GIT/iterative_bss/method/BSS_input_block/SepFormer/SepFormer/train.py", line 309, in reset_layer_recursively
+    self.reset_layer_recursively(child_layer)
+  File "/mnt/hdd1/shahriari/project/GIT/iterative_bss/method/BSS_input_block/SepFormer/SepFormer/train.py", line 306, in reset_layer_recursively
+    layer.reset_parameters()
+  File "/mnt/hdd1/shahriari/project/GIT/iterative_bss/venv/lib/python3.8/site-packages/torch/nn/modules/conv.py", line 115, in reset_parameters
+    init.kaiming_uniform_(self.weight, a=math.sqrt(5))
+  File "/mnt/hdd1/shahriari/project/GIT/iterative_bss/venv/lib/python3.8/site-packages/torch/nn/init.py", line 379, in kaiming_uniform_
+    return tensor.uniform_(-bound, bound)
+RuntimeError: CUDA error: no kernel image is available for execution on the device
+2022-07-03 17:45:42,738 - speechbrain.core - INFO - Beginning experiment!
+2022-07-03 17:45:42,738 - speechbrain.core - INFO - Experiment folder: results/deepmine/1234
+2022-07-03 17:45:42,996 - speechbrain.utils.superpowers - DEBUG - absl-py==1.1.0
+aiohttp==3.8.1
+aiosignal==1.2.0
+antlr4-python3-runtime==4.9.3
+asteroid==0.5.2
+asteroid-filterbanks==0.4.0
+async-timeout==4.0.2
+attrs==21.4.0
+audioread==2.1.9
+cached-property==1.5.2
+cachetools==5.2.0
+certifi==2022.6.15
+cffi==1.15.1
+charset-normalizer==2.1.0
+decorator==5.1.1
+einops==0.4.1
+filelock==3.7.1
+frozenlist==1.3.0
+fsspec==2022.5.0
+future==0.18.2
+google-auth==2.9.0
+google-auth-oauthlib==0.4.6
+grpcio==1.47.0
+huggingface-hub==0.8.1
+HyperPyYAML==1.0.1
+idna==3.3
+importlib-metadata==4.12.0
+joblib==1.1.0
+julius==0.2.6
+librosa==0.7.1
+llvmlite==0.31.0
+Markdown==3.3.7
+mir-eval==0.7
+multidict==6.0.2
+numba==0.48.0
+numpy==1.21.5
+oauthlib==3.2.0
+omegaconf==2.2.2
+packaging==21.3
+pandas==1.4.3
+pb-bss-eval==0.0.2
+pesq==0.0.4
+Pillow==9.2.0
+protobuf==3.19.4
+pyasn1==0.4.8
+pyasn1-modules==0.2.8
+pycparser==2.21
+pyDeprecate==0.3.1
+pyparsing==3.0.9
+pystoi==0.3.3
+python-dateutil==2.8.2
+pytorch-lightning==1.4.9
+pytorch-ranger==0.1.1
+pytz==2022.1
+PyYAML==6.0
+requests==2.28.1
+requests-oauthlib==1.3.1
+resampy==0.3.0
+rsa==4.8
+ruamel.yaml==0.17.21
+ruamel.yaml.clib==0.2.6
+scikit-learn==1.1.1
+scipy==1.8.1
+sentencepiece==0.1.96
+six==1.16.0
+SoundFile==0.10.3.post1
+speechbrain==0.5.8
+tensorboard==2.9.1
+tensorboard-data-server==0.6.1
+tensorboard-plugin-wit==1.8.1
+threadpoolctl==3.1.0
+torch==1.8.1
+torch-optimizer==0.1.0
+torch-stoi==0.1.2
+torchaudio==0.8.1
+torchmetrics==0.9.2
+torchsummary==1.5.1
+torchvision==0.9.1
+tqdm==4.64.0
+typing-extensions==4.3.0
+urllib3==1.26.9
+Werkzeug==2.1.2
+yarl==1.7.2
+zipp==3.8.0
+
+
+2022-07-03 17:45:43,002 - speechbrain.utils.superpowers - DEBUG - 7932705
+
+
+2022-07-03 17:45:43,457 - speechbrain.core - INFO - Info: auto_mix_prec arg overridden by command line input
+2022-07-03 17:45:43,730 - speechbrain.core - INFO - 25.7M trainable parameters in Separation
+2022-07-03 17:45:43,736 - speechbrain.core - ERROR - Exception:
+Traceback (most recent call last):
+  File "/home/shahriari/.local/lib/python3.8/runpy.py", line 194, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/home/shahriari/.local/lib/python3.8/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/mnt/hdd1/shahriari/project/GIT/iterative_bss/method/BSS_input_block/SepFormer/SepFormer/train.py", line 622, in <module>
+    separator.reset_layer_recursively(module)
+  File "/mnt/hdd1/shahriari/project/GIT/iterative_bss/method/BSS_input_block/SepFormer/SepFormer/train.py", line 309, in reset_layer_recursively
+    self.reset_layer_recursively(child_layer)
+  File "/mnt/hdd1/shahriari/project/GIT/iterative_bss/method/BSS_input_block/SepFormer/SepFormer/train.py", line 306, in reset_layer_recursively
+    layer.reset_parameters()
+  File "/mnt/hdd1/shahriari/project/GIT/iterative_bss/venv/lib/python3.8/site-packages/torch/nn/modules/conv.py", line 115, in reset_parameters
+    init.kaiming_uniform_(self.weight, a=math.sqrt(5))
+  File "/mnt/hdd1/shahriari/project/GIT/iterative_bss/venv/lib/python3.8/site-packages/torch/nn/init.py", line 379, in kaiming_uniform_
+    return tensor.uniform_(-bound, bound)
+RuntimeError: CUDA error: no kernel image is available for execution on the device
+2022-07-03 20:57:31,701 - speechbrain.core - INFO - Beginning experiment!
+2022-07-03 20:57:31,702 - speechbrain.core - INFO - Experiment folder: results/deepmine/1234
+2022-07-03 20:57:31,962 - speechbrain.utils.superpowers - DEBUG - absl-py==1.1.0
+aiohttp==3.8.1
+aiosignal==1.2.0
+antlr4-python3-runtime==4.9.3
+asteroid==0.5.2
+asteroid-filterbanks==0.4.0
+async-timeout==4.0.2
+attrs==21.4.0
+audioread==2.1.9
+cached-property==1.5.2
+cachetools==5.2.0
+certifi==2022.6.15
+cffi==1.15.1
+charset-normalizer==2.1.0
+decorator==5.1.1
+einops==0.4.1
+filelock==3.7.1
+frozenlist==1.3.0
+fsspec==2022.5.0
+future==0.18.2
+google-auth==2.9.0
+google-auth-oauthlib==0.4.6
+grpcio==1.47.0
+huggingface-hub==0.8.1
+HyperPyYAML==1.0.1
+idna==3.3
+importlib-metadata==4.12.0
+joblib==1.1.0
+julius==0.2.6
+librosa==0.7.1
+llvmlite==0.31.0
+Markdown==3.3.7
+mir-eval==0.7
+multidict==6.0.2
+numba==0.48.0
+numpy==1.21.5
+oauthlib==3.2.0
+omegaconf==2.2.2
+packaging==21.3
+pandas==1.4.3
+pb-bss-eval==0.0.2
+pesq==0.0.4
+Pillow==9.2.0
+protobuf==3.19.4
+pyasn1==0.4.8
+pyasn1-modules==0.2.8
+pycparser==2.21
+pyDeprecate==0.3.1
+pyparsing==3.0.9
+pystoi==0.3.3
+python-dateutil==2.8.2
+pytorch-lightning==1.4.9
+pytorch-ranger==0.1.1
+pytz==2022.1
+PyYAML==6.0
+requests==2.28.1
+requests-oauthlib==1.3.1
+resampy==0.3.0
+rsa==4.8
+ruamel.yaml==0.17.21
+ruamel.yaml.clib==0.2.6
+scikit-learn==1.1.1
+scipy==1.8.1
+sentencepiece==0.1.96
+six==1.16.0
+SoundFile==0.10.3.post1
+speechbrain==0.5.8
+tensorboard==2.9.1
+tensorboard-data-server==0.6.1
+tensorboard-plugin-wit==1.8.1
+threadpoolctl==3.1.0
+torch==1.8.1+cu111
+torch-optimizer==0.1.0
+torch-stoi==0.1.2
+torchaudio==0.8.1
+torchmetrics==0.9.2
+torchsummary==1.5.1
+torchvision==0.9.1+cu111
+tqdm==4.64.0
+typing-extensions==4.3.0
+urllib3==1.26.9
+Werkzeug==2.1.2
+yarl==1.7.2
+zipp==3.8.0
+
+
+2022-07-03 20:57:31,970 - speechbrain.utils.superpowers - DEBUG - 7932705
+
+
+2022-07-03 20:57:32,429 - speechbrain.core - INFO - Info: auto_mix_prec arg overridden by command line input
+2022-07-03 20:57:34,673 - speechbrain.core - INFO - 25.7M trainable parameters in Separation
+2022-07-03 20:57:35,634 - speechbrain.utils.checkpoints - INFO - Would load a checkpoint here, but none found yet.
+2022-07-03 20:57:35,635 - speechbrain.utils.epoch_loop - INFO - Going into epoch 1
+2022-07-03 20:57:36,353 - speechbrain.core - ERROR - Exception:
+Traceback (most recent call last):
+  File "/home/shahriari/.local/lib/python3.8/runpy.py", line 194, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/home/shahriari/.local/lib/python3.8/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/mnt/hdd1/shahriari/project/GIT/iterative_bss/method/BSS_input_block/SepFormer/SepFormer/train.py", line 626, in <module>
+    separator.fit(
+  File "/mnt/hdd1/shahriari/project/GIT/iterative_bss/venv/lib/python3.8/site-packages/speechbrain/core.py", line 1013, in fit
+    loss = self.fit_batch(batch)
+  File "/mnt/hdd1/shahriari/project/GIT/iterative_bss/method/BSS_input_block/SepFormer/SepFormer/train.py", line 110, in fit_batch
+    predictions, targets = self.compute_forward(
+  File "/mnt/hdd1/shahriari/project/GIT/iterative_bss/method/BSS_input_block/SepFormer/SepFormer/train.py", line 72, in compute_forward
+    est_mask = self.hparams.MaskNet(mix_w)
+  File "/mnt/hdd1/shahriari/project/GIT/iterative_bss/venv/lib/python3.8/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/mnt/hdd1/shahriari/project/GIT/iterative_bss/venv/lib/python3.8/site-packages/speechbrain/lobes/models/dual_path.py", line 1124, in forward
+    x = self.dual_mdl[i](x)
+  File "/mnt/hdd1/shahriari/project/GIT/iterative_bss/venv/lib/python3.8/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/mnt/hdd1/shahriari/project/GIT/iterative_bss/venv/lib/python3.8/site-packages/speechbrain/lobes/models/dual_path.py", line 954, in forward
+    intra = self.intra_mdl(intra)
+  File "/mnt/hdd1/shahriari/project/GIT/iterative_bss/venv/lib/python3.8/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/mnt/hdd1/shahriari/project/GIT/iterative_bss/venv/lib/python3.8/site-packages/speechbrain/lobes/models/dual_path.py", line 597, in forward
+    return self.mdl(x + pos_enc)[0]
+  File "/mnt/hdd1/shahriari/project/GIT/iterative_bss/venv/lib/python3.8/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/mnt/hdd1/shahriari/project/GIT/iterative_bss/venv/lib/python3.8/site-packages/speechbrain/lobes/models/transformer/Transformer.py", line 377, in forward
+    output, attention = enc_layer(
+  File "/mnt/hdd1/shahriari/project/GIT/iterative_bss/venv/lib/python3.8/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/mnt/hdd1/shahriari/project/GIT/iterative_bss/venv/lib/python3.8/site-packages/speechbrain/lobes/models/transformer/Transformer.py", line 272, in forward
+    output = self.pos_ffn(src1)
+  File "/mnt/hdd1/shahriari/project/GIT/iterative_bss/venv/lib/python3.8/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/mnt/hdd1/shahriari/project/GIT/iterative_bss/venv/lib/python3.8/site-packages/speechbrain/nnet/attention.py", line 483, in forward
+    x = self.ffn(x)
+  File "/mnt/hdd1/shahriari/project/GIT/iterative_bss/venv/lib/python3.8/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/mnt/hdd1/shahriari/project/GIT/iterative_bss/venv/lib/python3.8/site-packages/torch/nn/modules/container.py", line 119, in forward
+    input = module(input)
+  File "/mnt/hdd1/shahriari/project/GIT/iterative_bss/venv/lib/python3.8/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/mnt/hdd1/shahriari/project/GIT/iterative_bss/venv/lib/python3.8/site-packages/torch/nn/modules/activation.py", line 102, in forward
+    return F.relu(input, inplace=self.inplace)
+  File "/mnt/hdd1/shahriari/project/GIT/iterative_bss/venv/lib/python3.8/site-packages/torch/nn/functional.py", line 1206, in relu
+    result = torch.relu(input)
+RuntimeError: CUDA out of memory. Tried to allocate 28.00 MiB (GPU 0; 7.79 GiB total capacity; 5.97 GiB already allocated; 24.44 MiB free; 6.20 GiB reserved in total by PyTorch)
+2022-07-03 21:02:11,995 - speechbrain.core - INFO - Beginning experiment!
+2022-07-03 21:02:11,995 - speechbrain.core - INFO - Experiment folder: results/deepmine/1234
+2022-07-03 21:02:12,253 - speechbrain.utils.superpowers - DEBUG - absl-py==1.1.0
+aiohttp==3.8.1
+aiosignal==1.2.0
+antlr4-python3-runtime==4.9.3
+asteroid==0.5.2
+asteroid-filterbanks==0.4.0
+async-timeout==4.0.2
+attrs==21.4.0
+audioread==2.1.9
+cached-property==1.5.2
+cachetools==5.2.0
+certifi==2022.6.15
+cffi==1.15.1
+charset-normalizer==2.1.0
+decorator==5.1.1
+einops==0.4.1
+filelock==3.7.1
+frozenlist==1.3.0
+fsspec==2022.5.0
+future==0.18.2
+google-auth==2.9.0
+google-auth-oauthlib==0.4.6
+grpcio==1.47.0
+huggingface-hub==0.8.1
+HyperPyYAML==1.0.1
+idna==3.3
+importlib-metadata==4.12.0
+joblib==1.1.0
+julius==0.2.6
+librosa==0.7.1
+llvmlite==0.31.0
+Markdown==3.3.7
+mir-eval==0.7
+multidict==6.0.2
+numba==0.48.0
+numpy==1.21.5
+oauthlib==3.2.0
+omegaconf==2.2.2
+packaging==21.3
+pandas==1.4.3
+pb-bss-eval==0.0.2
+pesq==0.0.4
+Pillow==9.2.0
+protobuf==3.19.4
+pyasn1==0.4.8
+pyasn1-modules==0.2.8
+pycparser==2.21
+pyDeprecate==0.3.1
+pyparsing==3.0.9
+pystoi==0.3.3
+python-dateutil==2.8.2
+pytorch-lightning==1.4.9
+pytorch-ranger==0.1.1
+pytz==2022.1
+PyYAML==6.0
+requests==2.28.1
+requests-oauthlib==1.3.1
+resampy==0.3.0
+rsa==4.8
+ruamel.yaml==0.17.21
+ruamel.yaml.clib==0.2.6
+scikit-learn==1.1.1
+scipy==1.8.1
+sentencepiece==0.1.96
+six==1.16.0
+SoundFile==0.10.3.post1
+speechbrain==0.5.8
+tensorboard==2.9.1
+tensorboard-data-server==0.6.1
+tensorboard-plugin-wit==1.8.1
+threadpoolctl==3.1.0
+torch==1.8.1+cu111
+torch-optimizer==0.1.0
+torch-stoi==0.1.2
+torchaudio==0.8.1
+torchmetrics==0.9.2
+torchsummary==1.5.1
+torchvision==0.9.1+cu111
+tqdm==4.64.0
+typing-extensions==4.3.0
+urllib3==1.26.9
+Werkzeug==2.1.2
+yarl==1.7.2
+zipp==3.8.0
+
+
+2022-07-03 21:02:12,260 - speechbrain.utils.superpowers - DEBUG - 7932705
+
+
+2022-07-03 21:02:12,716 - speechbrain.core - INFO - Info: auto_mix_prec arg overridden by command line input
+2022-07-03 21:02:14,929 - speechbrain.core - INFO - 13.0M trainable parameters in Separation
+2022-07-03 21:02:15,440 - speechbrain.utils.checkpoints - INFO - Would load a checkpoint here, but none found yet.
+2022-07-03 21:02:15,441 - speechbrain.utils.epoch_loop - INFO - Going into epoch 1
+2022-07-03 21:02:19,613 - speechbrain.core - ERROR - Exception:
+Traceback (most recent call last):
+  File "/home/shahriari/.local/lib/python3.8/runpy.py", line 194, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/home/shahriari/.local/lib/python3.8/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/mnt/hdd1/shahriari/project/GIT/iterative_bss/method/BSS_input_block/SepFormer/SepFormer/train.py", line 626, in <module>
+    separator.fit(
+  File "/mnt/hdd1/shahriari/project/GIT/iterative_bss/venv/lib/python3.8/site-packages/speechbrain/core.py", line 1013, in fit
+    loss = self.fit_batch(batch)
+  File "/mnt/hdd1/shahriari/project/GIT/iterative_bss/method/BSS_input_block/SepFormer/SepFormer/train.py", line 110, in fit_batch
+    predictions, targets = self.compute_forward(
+  File "/mnt/hdd1/shahriari/project/GIT/iterative_bss/method/BSS_input_block/SepFormer/SepFormer/train.py", line 72, in compute_forward
+    est_mask = self.hparams.MaskNet(mix_w)
+  File "/mnt/hdd1/shahriari/project/GIT/iterative_bss/venv/lib/python3.8/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/mnt/hdd1/shahriari/project/GIT/iterative_bss/venv/lib/python3.8/site-packages/speechbrain/lobes/models/dual_path.py", line 1124, in forward
+    x = self.dual_mdl[i](x)
+  File "/mnt/hdd1/shahriari/project/GIT/iterative_bss/venv/lib/python3.8/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/mnt/hdd1/shahriari/project/GIT/iterative_bss/venv/lib/python3.8/site-packages/speechbrain/lobes/models/dual_path.py", line 975, in forward
+    inter = self.inter_mdl(inter)
+  File "/mnt/hdd1/shahriari/project/GIT/iterative_bss/venv/lib/python3.8/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/mnt/hdd1/shahriari/project/GIT/iterative_bss/venv/lib/python3.8/site-packages/speechbrain/lobes/models/dual_path.py", line 597, in forward
+    return self.mdl(x + pos_enc)[0]
+  File "/mnt/hdd1/shahriari/project/GIT/iterative_bss/venv/lib/python3.8/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/mnt/hdd1/shahriari/project/GIT/iterative_bss/venv/lib/python3.8/site-packages/speechbrain/lobes/models/transformer/Transformer.py", line 377, in forward
+    output, attention = enc_layer(
+  File "/mnt/hdd1/shahriari/project/GIT/iterative_bss/venv/lib/python3.8/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/mnt/hdd1/shahriari/project/GIT/iterative_bss/venv/lib/python3.8/site-packages/speechbrain/lobes/models/transformer/Transformer.py", line 264, in forward
+    src = src + self.dropout1(output)
+RuntimeError: CUDA out of memory. Tried to allocate 20.00 MiB (GPU 0; 7.79 GiB total capacity; 5.96 GiB already allocated; 4.44 MiB free; 6.20 GiB reserved in total by PyTorch)
+2022-07-03 21:08:02,886 - speechbrain.core - INFO - Beginning experiment!
+2022-07-03 21:08:02,886 - speechbrain.core - INFO - Experiment folder: results/deepmine/1234
+2022-07-03 21:08:03,144 - speechbrain.utils.superpowers - DEBUG - absl-py==1.1.0
+aiohttp==3.8.1
+aiosignal==1.2.0
+antlr4-python3-runtime==4.9.3
+asteroid==0.5.2
+asteroid-filterbanks==0.4.0
+async-timeout==4.0.2
+attrs==21.4.0
+audioread==2.1.9
+cached-property==1.5.2
+cachetools==5.2.0
+certifi==2022.6.15
+cffi==1.15.1
+charset-normalizer==2.1.0
+decorator==5.1.1
+einops==0.4.1
+filelock==3.7.1
+frozenlist==1.3.0
+fsspec==2022.5.0
+future==0.18.2
+google-auth==2.9.0
+google-auth-oauthlib==0.4.6
+grpcio==1.47.0
+huggingface-hub==0.8.1
+HyperPyYAML==1.0.1
+idna==3.3
+importlib-metadata==4.12.0
+joblib==1.1.0
+julius==0.2.6
+librosa==0.7.1
+llvmlite==0.31.0
+Markdown==3.3.7
+mir-eval==0.7
+multidict==6.0.2
+numba==0.48.0
+numpy==1.21.5
+oauthlib==3.2.0
+omegaconf==2.2.2
+packaging==21.3
+pandas==1.4.3
+pb-bss-eval==0.0.2
+pesq==0.0.4
+Pillow==9.2.0
+protobuf==3.19.4
+pyasn1==0.4.8
+pyasn1-modules==0.2.8
+pycparser==2.21
+pyDeprecate==0.3.1
+pyparsing==3.0.9
+pystoi==0.3.3
+python-dateutil==2.8.2
+pytorch-lightning==1.4.9
+pytorch-ranger==0.1.1
+pytz==2022.1
+PyYAML==6.0
+requests==2.28.1
+requests-oauthlib==1.3.1
+resampy==0.3.0
+rsa==4.8
+ruamel.yaml==0.17.21
+ruamel.yaml.clib==0.2.6
+scikit-learn==1.1.1
+scipy==1.8.1
+sentencepiece==0.1.96
+six==1.16.0
+SoundFile==0.10.3.post1
+speechbrain==0.5.8
+tensorboard==2.9.1
+tensorboard-data-server==0.6.1
+tensorboard-plugin-wit==1.8.1
+threadpoolctl==3.1.0
+torch==1.8.1+cu111
+torch-optimizer==0.1.0
+torch-stoi==0.1.2
+torchaudio==0.8.1
+torchmetrics==0.9.2
+torchsummary==1.5.1
+torchvision==0.9.1+cu111
+tqdm==4.64.0
+typing-extensions==4.3.0
+urllib3==1.26.9
+Werkzeug==2.1.2
+yarl==1.7.2
+zipp==3.8.0
+
+
+2022-07-03 21:08:03,152 - speechbrain.utils.superpowers - DEBUG - 7932705
+
+
+2022-07-03 21:08:03,605 - speechbrain.core - INFO - Info: auto_mix_prec arg overridden by command line input
+2022-07-03 21:08:05,814 - speechbrain.core - INFO - 13.0M trainable parameters in Separation
+2022-07-03 21:08:06,309 - speechbrain.utils.checkpoints - INFO - Would load a checkpoint here, but none found yet.
+2022-07-03 21:08:06,309 - speechbrain.utils.epoch_loop - INFO - Going into epoch 1
+2022-07-03 21:08:10,483 - speechbrain.core - ERROR - Exception:
+Traceback (most recent call last):
+  File "/home/shahriari/.local/lib/python3.8/runpy.py", line 194, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/home/shahriari/.local/lib/python3.8/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/mnt/hdd1/shahriari/project/GIT/iterative_bss/method/BSS_input_block/SepFormer/SepFormer/train.py", line 626, in <module>
+    separator.fit(
+  File "/mnt/hdd1/shahriari/project/GIT/iterative_bss/venv/lib/python3.8/site-packages/speechbrain/core.py", line 1013, in fit
+    loss = self.fit_batch(batch)
+  File "/mnt/hdd1/shahriari/project/GIT/iterative_bss/method/BSS_input_block/SepFormer/SepFormer/train.py", line 110, in fit_batch
+    predictions, targets = self.compute_forward(
+  File "/mnt/hdd1/shahriari/project/GIT/iterative_bss/method/BSS_input_block/SepFormer/SepFormer/train.py", line 72, in compute_forward
+    est_mask = self.hparams.MaskNet(mix_w)
+  File "/mnt/hdd1/shahriari/project/GIT/iterative_bss/venv/lib/python3.8/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/mnt/hdd1/shahriari/project/GIT/iterative_bss/venv/lib/python3.8/site-packages/speechbrain/lobes/models/dual_path.py", line 1124, in forward
+    x = self.dual_mdl[i](x)
+  File "/mnt/hdd1/shahriari/project/GIT/iterative_bss/venv/lib/python3.8/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/mnt/hdd1/shahriari/project/GIT/iterative_bss/venv/lib/python3.8/site-packages/speechbrain/lobes/models/dual_path.py", line 975, in forward
+    inter = self.inter_mdl(inter)
+  File "/mnt/hdd1/shahriari/project/GIT/iterative_bss/venv/lib/python3.8/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/mnt/hdd1/shahriari/project/GIT/iterative_bss/venv/lib/python3.8/site-packages/speechbrain/lobes/models/dual_path.py", line 597, in forward
+    return self.mdl(x + pos_enc)[0]
+  File "/mnt/hdd1/shahriari/project/GIT/iterative_bss/venv/lib/python3.8/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/mnt/hdd1/shahriari/project/GIT/iterative_bss/venv/lib/python3.8/site-packages/speechbrain/lobes/models/transformer/Transformer.py", line 377, in forward
+    output, attention = enc_layer(
+  File "/mnt/hdd1/shahriari/project/GIT/iterative_bss/venv/lib/python3.8/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/mnt/hdd1/shahriari/project/GIT/iterative_bss/venv/lib/python3.8/site-packages/speechbrain/lobes/models/transformer/Transformer.py", line 264, in forward
+    src = src + self.dropout1(output)
+RuntimeError: CUDA out of memory. Tried to allocate 20.00 MiB (GPU 0; 7.79 GiB total capacity; 5.96 GiB already allocated; 4.44 MiB free; 6.20 GiB reserved in total by PyTorch)
+2022-07-03 21:12:17,102 - speechbrain.core - INFO - Beginning experiment!
+2022-07-03 21:12:17,102 - speechbrain.core - INFO - Experiment folder: results/deepmine/1234
+2022-07-03 21:12:17,362 - speechbrain.utils.superpowers - DEBUG - absl-py==1.1.0
+aiohttp==3.8.1
+aiosignal==1.2.0
+antlr4-python3-runtime==4.9.3
+asteroid==0.5.2
+asteroid-filterbanks==0.4.0
+async-timeout==4.0.2
+attrs==21.4.0
+audioread==2.1.9
+cached-property==1.5.2
+cachetools==5.2.0
+certifi==2022.6.15
+cffi==1.15.1
+charset-normalizer==2.1.0
+decorator==5.1.1
+einops==0.4.1
+filelock==3.7.1
+frozenlist==1.3.0
+fsspec==2022.5.0
+future==0.18.2
+google-auth==2.9.0
+google-auth-oauthlib==0.4.6
+grpcio==1.47.0
+huggingface-hub==0.8.1
+HyperPyYAML==1.0.1
+idna==3.3
+importlib-metadata==4.12.0
+joblib==1.1.0
+julius==0.2.6
+librosa==0.7.1
+llvmlite==0.31.0
+Markdown==3.3.7
+mir-eval==0.7
+multidict==6.0.2
+numba==0.48.0
+numpy==1.21.5
+oauthlib==3.2.0
+omegaconf==2.2.2
+packaging==21.3
+pandas==1.4.3
+pb-bss-eval==0.0.2
+pesq==0.0.4
+Pillow==9.2.0
+protobuf==3.19.4
+pyasn1==0.4.8
+pyasn1-modules==0.2.8
+pycparser==2.21
+pyDeprecate==0.3.1
+pyparsing==3.0.9
+pystoi==0.3.3
+python-dateutil==2.8.2
+pytorch-lightning==1.4.9
+pytorch-ranger==0.1.1
+pytz==2022.1
+PyYAML==6.0
+requests==2.28.1
+requests-oauthlib==1.3.1
+resampy==0.3.0
+rsa==4.8
+ruamel.yaml==0.17.21
+ruamel.yaml.clib==0.2.6
+scikit-learn==1.1.1
+scipy==1.8.1
+sentencepiece==0.1.96
+six==1.16.0
+SoundFile==0.10.3.post1
+speechbrain==0.5.8
+tensorboard==2.9.1
+tensorboard-data-server==0.6.1
+tensorboard-plugin-wit==1.8.1
+threadpoolctl==3.1.0
+torch==1.8.1+cu111
+torch-optimizer==0.1.0
+torch-stoi==0.1.2
+torchaudio==0.8.1
+torchmetrics==0.9.2
+torchsummary==1.5.1
+torchvision==0.9.1+cu111
+tqdm==4.64.0
+typing-extensions==4.3.0
+urllib3==1.26.9
+Werkzeug==2.1.2
+yarl==1.7.2
+zipp==3.8.0
+
+
+2022-07-03 21:12:17,369 - speechbrain.utils.superpowers - DEBUG - 7932705
+
+
+2022-07-03 21:12:17,827 - speechbrain.core - INFO - Info: auto_mix_prec arg overridden by command line input
+2022-07-03 21:12:20,036 - speechbrain.core - INFO - 13.0M trainable parameters in Separation
+2022-07-03 21:12:20,529 - speechbrain.utils.checkpoints - INFO - Would load a checkpoint here, but none found yet.
+2022-07-03 21:12:20,529 - speechbrain.utils.epoch_loop - INFO - Going into epoch 1
+2022-07-03 21:12:24,696 - speechbrain.core - ERROR - Exception:
+Traceback (most recent call last):
+  File "/home/shahriari/.local/lib/python3.8/runpy.py", line 194, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/home/shahriari/.local/lib/python3.8/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/mnt/hdd1/shahriari/project/GIT/iterative_bss/method/BSS_input_block/SepFormer/SepFormer/train.py", line 626, in <module>
+    separator.fit(
+  File "/mnt/hdd1/shahriari/project/GIT/iterative_bss/venv/lib/python3.8/site-packages/speechbrain/core.py", line 1013, in fit
+    loss = self.fit_batch(batch)
+  File "/mnt/hdd1/shahriari/project/GIT/iterative_bss/method/BSS_input_block/SepFormer/SepFormer/train.py", line 110, in fit_batch
+    predictions, targets = self.compute_forward(
+  File "/mnt/hdd1/shahriari/project/GIT/iterative_bss/method/BSS_input_block/SepFormer/SepFormer/train.py", line 72, in compute_forward
+    est_mask = self.hparams.MaskNet(mix_w)
+  File "/mnt/hdd1/shahriari/project/GIT/iterative_bss/venv/lib/python3.8/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/mnt/hdd1/shahriari/project/GIT/iterative_bss/venv/lib/python3.8/site-packages/speechbrain/lobes/models/dual_path.py", line 1124, in forward
+    x = self.dual_mdl[i](x)
+  File "/mnt/hdd1/shahriari/project/GIT/iterative_bss/venv/lib/python3.8/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/mnt/hdd1/shahriari/project/GIT/iterative_bss/venv/lib/python3.8/site-packages/speechbrain/lobes/models/dual_path.py", line 975, in forward
+    inter = self.inter_mdl(inter)
+  File "/mnt/hdd1/shahriari/project/GIT/iterative_bss/venv/lib/python3.8/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/mnt/hdd1/shahriari/project/GIT/iterative_bss/venv/lib/python3.8/site-packages/speechbrain/lobes/models/dual_path.py", line 597, in forward
+    return self.mdl(x + pos_enc)[0]
+  File "/mnt/hdd1/shahriari/project/GIT/iterative_bss/venv/lib/python3.8/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/mnt/hdd1/shahriari/project/GIT/iterative_bss/venv/lib/python3.8/site-packages/speechbrain/lobes/models/transformer/Transformer.py", line 377, in forward
+    output, attention = enc_layer(
+  File "/mnt/hdd1/shahriari/project/GIT/iterative_bss/venv/lib/python3.8/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/mnt/hdd1/shahriari/project/GIT/iterative_bss/venv/lib/python3.8/site-packages/speechbrain/lobes/models/transformer/Transformer.py", line 264, in forward
+    src = src + self.dropout1(output)
+RuntimeError: CUDA out of memory. Tried to allocate 20.00 MiB (GPU 0; 7.79 GiB total capacity; 5.96 GiB already allocated; 4.44 MiB free; 6.20 GiB reserved in total by PyTorch)
+2022-07-03 21:21:27,341 - speechbrain.core - INFO - Beginning experiment!
+2022-07-03 21:21:27,342 - speechbrain.core - INFO - Experiment folder: results/deepmine/1234
+2022-07-03 21:21:27,602 - speechbrain.utils.superpowers - DEBUG - absl-py==1.1.0
+aiohttp==3.8.1
+aiosignal==1.2.0
+antlr4-python3-runtime==4.9.3
+asteroid==0.5.2
+asteroid-filterbanks==0.4.0
+async-timeout==4.0.2
+attrs==21.4.0
+audioread==2.1.9
+cached-property==1.5.2
+cachetools==5.2.0
+certifi==2022.6.15
+cffi==1.15.1
+charset-normalizer==2.1.0
+decorator==5.1.1
+einops==0.4.1
+filelock==3.7.1
+frozenlist==1.3.0
+fsspec==2022.5.0
+future==0.18.2
+google-auth==2.9.0
+google-auth-oauthlib==0.4.6
+grpcio==1.47.0
+huggingface-hub==0.8.1
+HyperPyYAML==1.0.1
+idna==3.3
+importlib-metadata==4.12.0
+joblib==1.1.0
+julius==0.2.6
+librosa==0.7.1
+llvmlite==0.31.0
+Markdown==3.3.7
+mir-eval==0.7
+multidict==6.0.2
+numba==0.48.0
+numpy==1.21.5
+oauthlib==3.2.0
+omegaconf==2.2.2
+packaging==21.3
+pandas==1.4.3
+pb-bss-eval==0.0.2
+pesq==0.0.4
+Pillow==9.2.0
+protobuf==3.19.4
+pyasn1==0.4.8
+pyasn1-modules==0.2.8
+pycparser==2.21
+pyDeprecate==0.3.1
+pyparsing==3.0.9
+pystoi==0.3.3
+python-dateutil==2.8.2
+pytorch-lightning==1.4.9
+pytorch-ranger==0.1.1
+pytz==2022.1
+PyYAML==6.0
+requests==2.28.1
+requests-oauthlib==1.3.1
+resampy==0.3.0
+rsa==4.8
+ruamel.yaml==0.17.21
+ruamel.yaml.clib==0.2.6
+scikit-learn==1.1.1
+scipy==1.8.1
+sentencepiece==0.1.96
+six==1.16.0
+SoundFile==0.10.3.post1
+speechbrain==0.5.8
+tensorboard==2.9.1
+tensorboard-data-server==0.6.1
+tensorboard-plugin-wit==1.8.1
+threadpoolctl==3.1.0
+torch==1.8.1+cu111
+torch-optimizer==0.1.0
+torch-stoi==0.1.2
+torchaudio==0.8.1
+torchmetrics==0.9.2
+torchsummary==1.5.1
+torchvision==0.9.1+cu111
+tqdm==4.64.0
+typing-extensions==4.3.0
+urllib3==1.26.9
+Werkzeug==2.1.2
+yarl==1.7.2
+zipp==3.8.0
+
+
+2022-07-03 21:21:27,609 - speechbrain.utils.superpowers - DEBUG - 7932705
+
+
+2022-07-03 21:21:28,074 - speechbrain.core - INFO - Info: auto_mix_prec arg overridden by command line input
+2022-07-03 21:21:28,077 - speechbrain.core - INFO - 13.0M trainable parameters in Separation
+2022-07-03 21:21:37,890 - speechbrain.utils.checkpoints - INFO - Would load a checkpoint here, but none found yet.
+2022-07-03 21:21:37,890 - speechbrain.utils.epoch_loop - INFO - Going into epoch 1
+2022-07-03 21:21:40,836 - speechbrain.core - ERROR - Exception:
+Traceback (most recent call last):
+  File "/home/shahriari/.local/lib/python3.8/runpy.py", line 194, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/home/shahriari/.local/lib/python3.8/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/mnt/hdd1/shahriari/project/GIT/iterative_bss/method/BSS_input_block/SepFormer/SepFormer/train.py", line 626, in <module>
+    separator.fit(
+  File "/mnt/hdd1/shahriari/project/GIT/iterative_bss/venv/lib/python3.8/site-packages/speechbrain/core.py", line 1013, in fit
+    loss = self.fit_batch(batch)
+  File "/mnt/hdd1/shahriari/project/GIT/iterative_bss/method/BSS_input_block/SepFormer/SepFormer/train.py", line 127, in fit_batch
+    self.scaler.scale(loss).backward()
+  File "/mnt/hdd1/shahriari/project/GIT/iterative_bss/venv/lib/python3.8/site-packages/torch/cuda/amp/grad_scaler.py", line 162, in scale
+    assert outputs.is_cuda or outputs.device.type == 'xla'
+AssertionError
+2022-07-03 23:07:39,996 - speechbrain.core - INFO - Beginning experiment!
+2022-07-03 23:07:39,996 - speechbrain.core - INFO - Experiment folder: results/deepmine/1234
+2022-07-03 23:07:40,261 - speechbrain.utils.superpowers - DEBUG - absl-py==1.1.0
+aiohttp==3.8.1
+aiosignal==1.2.0
+antlr4-python3-runtime==4.9.3
+asteroid==0.5.2
+asteroid-filterbanks==0.4.0
+async-timeout==4.0.2
+attrs==21.4.0
+audioread==2.1.9
+cached-property==1.5.2
+cachetools==5.2.0
+certifi==2022.6.15
+cffi==1.15.1
+charset-normalizer==2.1.0
+decorator==5.1.1
+einops==0.4.1
+filelock==3.7.1
+frozenlist==1.3.0
+fsspec==2022.5.0
+future==0.18.2
+google-auth==2.9.0
+google-auth-oauthlib==0.4.6
+grpcio==1.47.0
+huggingface-hub==0.8.1
+HyperPyYAML==1.0.1
+idna==3.3
+importlib-metadata==4.12.0
+joblib==1.1.0
+julius==0.2.6
+librosa==0.7.1
+llvmlite==0.31.0
+Markdown==3.3.7
+mir-eval==0.7
+multidict==6.0.2
+numba==0.48.0
+numpy==1.21.5
+oauthlib==3.2.0
+omegaconf==2.2.2
+packaging==21.3
+pandas==1.4.3
+pb-bss-eval==0.0.2
+pesq==0.0.4
+Pillow==9.2.0
+protobuf==3.19.4
+pyasn1==0.4.8
+pyasn1-modules==0.2.8
+pycparser==2.21
+pyDeprecate==0.3.1
+pyparsing==3.0.9
+pystoi==0.3.3
+python-dateutil==2.8.2
+pytorch-lightning==1.4.9
+pytorch-ranger==0.1.1
+pytz==2022.1
+PyYAML==6.0
+requests==2.28.1
+requests-oauthlib==1.3.1
+resampy==0.3.0
+rsa==4.8
+ruamel.yaml==0.17.21
+ruamel.yaml.clib==0.2.6
+scikit-learn==1.1.1
+scipy==1.8.1
+sentencepiece==0.1.96
+six==1.16.0
+SoundFile==0.10.3.post1
+speechbrain==0.5.8
+tensorboard==2.9.1
+tensorboard-data-server==0.6.1
+tensorboard-plugin-wit==1.8.1
+threadpoolctl==3.1.0
+torch==1.8.1+cu111
+torch-optimizer==0.1.0
+torch-stoi==0.1.2
+torchaudio==0.8.1
+torchmetrics==0.9.2
+torchsummary==1.5.1
+torchvision==0.9.1+cu111
+tqdm==4.64.0
+typing-extensions==4.3.0
+urllib3==1.26.9
+Werkzeug==2.1.2
+yarl==1.7.2
+zipp==3.8.0
+
+
+2022-07-03 23:07:40,271 - speechbrain.utils.superpowers - DEBUG - 7932705
+
+
+2022-07-03 23:09:11,396 - speechbrain.core - INFO - Info: auto_mix_prec arg overridden by command line input
+2022-07-03 23:09:13,806 - speechbrain.core - INFO - 13.0M trainable parameters in Separation
+2022-07-03 23:09:14,297 - speechbrain.utils.checkpoints - INFO - Would load a checkpoint here, but none found yet.
+2022-07-03 23:09:14,297 - speechbrain.utils.epoch_loop - INFO - Going into epoch 1
+2022-07-03 23:49:19,094 - speechbrain.utils.train_logger - INFO - epoch: 1, lr: 1.50e-04 - train si-snr: -3.91e+00 - valid si-snr: -6.17e+00
+2022-07-03 23:49:19,333 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in results/deepmine/1234/save/CKPT+2022-07-03+23-49-19+00
+2022-07-03 23:49:19,336 - speechbrain.utils.epoch_loop - INFO - Going into epoch 2
+2022-07-04 00:29:00,117 - speechbrain.utils.train_logger - INFO - epoch: 2, lr: 1.50e-04 - train si-snr: -7.08e+00 - valid si-snr: -7.56e+00
+2022-07-04 00:29:00,347 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in results/deepmine/1234/save/CKPT+2022-07-04+00-29-00+00
+2022-07-04 00:29:00,371 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in results/deepmine/1234/save/CKPT+2022-07-03+23-49-19+00
+2022-07-04 00:29:00,371 - speechbrain.utils.epoch_loop - INFO - Going into epoch 3
+2022-07-04 01:09:12,385 - speechbrain.utils.train_logger - INFO - epoch: 3, lr: 1.50e-04 - train si-snr: -8.64e+00 - valid si-snr: -9.18e+00
+2022-07-04 01:09:12,573 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in results/deepmine/1234/save/CKPT+2022-07-04+01-09-12+00
+2022-07-04 01:09:12,600 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in results/deepmine/1234/save/CKPT+2022-07-04+00-29-00+00
+2022-07-04 01:09:12,600 - speechbrain.utils.epoch_loop - INFO - Going into epoch 4
+2022-07-04 01:48:51,546 - speechbrain.utils.train_logger - INFO - epoch: 4, lr: 1.50e-04 - train si-snr: -1.05e+01 - valid si-snr: -1.04e+01
+2022-07-04 01:48:51,734 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in results/deepmine/1234/save/CKPT+2022-07-04+01-48-51+00
+2022-07-04 01:48:51,763 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in results/deepmine/1234/save/CKPT+2022-07-04+01-09-12+00
+2022-07-04 01:48:51,763 - speechbrain.utils.epoch_loop - INFO - Going into epoch 5
+2022-07-04 02:28:33,539 - speechbrain.utils.train_logger - INFO - epoch: 5, lr: 1.50e-04 - train si-snr: -1.17e+01 - valid si-snr: -1.15e+01
+2022-07-04 02:28:33,724 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in results/deepmine/1234/save/CKPT+2022-07-04+02-28-33+00
+2022-07-04 02:28:33,755 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in results/deepmine/1234/save/CKPT+2022-07-04+01-48-51+00
+2022-07-04 02:28:33,755 - speechbrain.utils.epoch_loop - INFO - Going into epoch 6
+2022-07-04 03:08:15,619 - speechbrain.utils.train_logger - INFO - epoch: 6, lr: 1.50e-04 - train si-snr: -1.23e+01 - valid si-snr: -1.20e+01
+2022-07-04 03:08:15,805 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in results/deepmine/1234/save/CKPT+2022-07-04+03-08-15+00
+2022-07-04 03:08:15,839 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in results/deepmine/1234/save/CKPT+2022-07-04+02-28-33+00
+2022-07-04 03:08:15,839 - speechbrain.utils.epoch_loop - INFO - Going into epoch 7
+2022-07-04 03:47:53,876 - speechbrain.utils.train_logger - INFO - epoch: 7, lr: 1.50e-04 - train si-snr: -1.28e+01 - valid si-snr: -1.21e+01
+2022-07-04 03:47:54,064 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in results/deepmine/1234/save/CKPT+2022-07-04+03-47-53+00
+2022-07-04 03:47:54,099 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in results/deepmine/1234/save/CKPT+2022-07-04+03-08-15+00
+2022-07-04 03:47:54,099 - speechbrain.utils.epoch_loop - INFO - Going into epoch 8
+2022-07-04 04:27:33,290 - speechbrain.utils.train_logger - INFO - epoch: 8, lr: 1.50e-04 - train si-snr: -1.31e+01 - valid si-snr: -1.26e+01
+2022-07-04 04:27:33,475 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in results/deepmine/1234/save/CKPT+2022-07-04+04-27-33+00
+2022-07-04 04:27:33,512 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in results/deepmine/1234/save/CKPT+2022-07-04+03-47-53+00
+2022-07-04 04:27:33,512 - speechbrain.utils.epoch_loop - INFO - Going into epoch 9
+2022-07-04 05:07:12,445 - speechbrain.utils.train_logger - INFO - epoch: 9, lr: 1.50e-04 - train si-snr: -1.35e+01 - valid si-snr: -1.28e+01
+2022-07-04 05:07:12,631 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in results/deepmine/1234/save/CKPT+2022-07-04+05-07-12+00
+2022-07-04 05:07:12,670 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in results/deepmine/1234/save/CKPT+2022-07-04+04-27-33+00
+2022-07-04 05:07:12,670 - speechbrain.utils.epoch_loop - INFO - Going into epoch 10
+2022-07-04 05:46:51,504 - speechbrain.utils.train_logger - INFO - epoch: 10, lr: 1.50e-04 - train si-snr: -1.38e+01 - valid si-snr: -1.29e+01
+2022-07-04 05:46:51,688 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in results/deepmine/1234/save/CKPT+2022-07-04+05-46-51+00
+2022-07-04 05:46:51,729 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in results/deepmine/1234/save/CKPT+2022-07-04+05-07-12+00
+2022-07-04 05:46:51,729 - speechbrain.utils.epoch_loop - INFO - Going into epoch 11
+2022-07-04 06:26:31,320 - speechbrain.utils.train_logger - INFO - epoch: 11, lr: 1.50e-04 - train si-snr: -1.39e+01 - valid si-snr: -1.32e+01
+2022-07-04 06:26:31,509 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in results/deepmine/1234/save/CKPT+2022-07-04+06-26-31+00
+2022-07-04 06:26:31,552 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in results/deepmine/1234/save/CKPT+2022-07-04+05-46-51+00
+2022-07-04 06:26:31,553 - speechbrain.utils.epoch_loop - INFO - Going into epoch 12
+2022-07-04 07:06:12,763 - speechbrain.utils.train_logger - INFO - epoch: 12, lr: 1.50e-04 - train si-snr: -1.41e+01 - valid si-snr: -1.31e+01
+2022-07-04 07:06:12,949 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in results/deepmine/1234/save/CKPT+2022-07-04+07-06-12+00
+2022-07-04 07:06:12,976 - speechbrain.utils.epoch_loop - INFO - Going into epoch 13
+2022-07-04 07:45:52,220 - speechbrain.utils.train_logger - INFO - epoch: 13, lr: 1.50e-04 - train si-snr: -1.42e+01 - valid si-snr: -1.34e+01
+2022-07-04 07:45:52,404 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in results/deepmine/1234/save/CKPT+2022-07-04+07-45-52+00
+2022-07-04 07:45:52,464 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in results/deepmine/1234/save/CKPT+2022-07-04+07-06-12+00
+2022-07-04 07:45:52,483 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in results/deepmine/1234/save/CKPT+2022-07-04+06-26-31+00
+2022-07-04 07:45:52,484 - speechbrain.utils.epoch_loop - INFO - Going into epoch 14
+2022-07-04 08:25:32,960 - speechbrain.utils.train_logger - INFO - epoch: 14, lr: 1.50e-04 - train si-snr: -1.44e+01 - valid si-snr: -1.36e+01
+2022-07-04 08:25:33,146 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in results/deepmine/1234/save/CKPT+2022-07-04+08-25-32+00
+2022-07-04 08:25:33,193 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in results/deepmine/1234/save/CKPT+2022-07-04+07-45-52+00
+2022-07-04 08:25:33,193 - speechbrain.utils.epoch_loop - INFO - Going into epoch 15
+2022-07-04 09:05:13,570 - speechbrain.utils.train_logger - INFO - epoch: 15, lr: 1.50e-04 - train si-snr: -1.46e+01 - valid si-snr: -1.35e+01
+2022-07-04 09:05:13,759 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in results/deepmine/1234/save/CKPT+2022-07-04+09-05-13+00
+2022-07-04 09:05:13,792 - speechbrain.utils.epoch_loop - INFO - Going into epoch 16
+2022-07-04 09:33:30,469 - speechbrain.core - ERROR - Exception:
+Traceback (most recent call last):
+  File "/home/shahriari/.local/lib/python3.8/runpy.py", line 194, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/home/shahriari/.local/lib/python3.8/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/mnt/hdd1/shahriari/project/GIT/iterative_bss/method/BSS_input_block/SepFormer/SepFormer/train.py", line 626, in <module>
+    separator.fit(
+  File "/mnt/hdd1/shahriari/project/GIT/iterative_bss/venv/lib/python3.8/site-packages/speechbrain/core.py", line 1013, in fit
+    loss = self.fit_batch(batch)
+  File "/mnt/hdd1/shahriari/project/GIT/iterative_bss/method/BSS_input_block/SepFormer/SepFormer/train.py", line 110, in fit_batch
+    predictions, targets = self.compute_forward(
+  File "/mnt/hdd1/shahriari/project/GIT/iterative_bss/method/BSS_input_block/SepFormer/SepFormer/train.py", line 72, in compute_forward
+    est_mask = self.hparams.MaskNet(mix_w)
+  File "/mnt/hdd1/shahriari/project/GIT/iterative_bss/venv/lib/python3.8/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/mnt/hdd1/shahriari/project/GIT/iterative_bss/venv/lib/python3.8/site-packages/speechbrain/lobes/models/dual_path.py", line 1124, in forward
+    x = self.dual_mdl[i](x)
+  File "/mnt/hdd1/shahriari/project/GIT/iterative_bss/venv/lib/python3.8/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/mnt/hdd1/shahriari/project/GIT/iterative_bss/venv/lib/python3.8/site-packages/speechbrain/lobes/models/dual_path.py", line 954, in forward
+    intra = self.intra_mdl(intra)
+  File "/mnt/hdd1/shahriari/project/GIT/iterative_bss/venv/lib/python3.8/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/mnt/hdd1/shahriari/project/GIT/iterative_bss/venv/lib/python3.8/site-packages/speechbrain/lobes/models/dual_path.py", line 597, in forward
+    return self.mdl(x + pos_enc)[0]
+  File "/mnt/hdd1/shahriari/project/GIT/iterative_bss/venv/lib/python3.8/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/mnt/hdd1/shahriari/project/GIT/iterative_bss/venv/lib/python3.8/site-packages/speechbrain/lobes/models/transformer/Transformer.py", line 377, in forward
+    output, attention = enc_layer(
+  File "/mnt/hdd1/shahriari/project/GIT/iterative_bss/venv/lib/python3.8/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/mnt/hdd1/shahriari/project/GIT/iterative_bss/venv/lib/python3.8/site-packages/speechbrain/lobes/models/transformer/Transformer.py", line 255, in forward
+    output, self_attn = self.self_att(
+  File "/mnt/hdd1/shahriari/project/GIT/iterative_bss/venv/lib/python3.8/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/mnt/hdd1/shahriari/project/GIT/iterative_bss/venv/lib/python3.8/site-packages/speechbrain/nnet/attention.py", line 416, in forward
+    output, attention = self.att(
+  File "/mnt/hdd1/shahriari/project/GIT/iterative_bss/venv/lib/python3.8/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/mnt/hdd1/shahriari/project/GIT/iterative_bss/venv/lib/python3.8/site-packages/torch/nn/modules/activation.py", line 980, in forward
+    return F.multi_head_attention_forward(
+  File "/mnt/hdd1/shahriari/project/GIT/iterative_bss/venv/lib/python3.8/site-packages/torch/nn/functional.py", line 4813, in multi_head_attention_forward
+    attn_output = linear(attn_output, out_proj_weight, out_proj_bias)
+  File "/mnt/hdd1/shahriari/project/GIT/iterative_bss/venv/lib/python3.8/site-packages/torch/nn/functional.py", line 1753, in linear
+    return torch._C._nn.linear(input, weight, bias)
+KeyboardInterrupt

@@ -1,0 +1,2 @@
+This model is trained with the whole available Deepmine dataset.
+It is the model after the 50th epoch training.

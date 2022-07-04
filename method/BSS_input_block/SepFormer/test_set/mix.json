@@ -1,0 +1,14 @@
+[
+    [
+        "/home/iman/storage/code/project/PERSONAL/military/GIT/iterative_bss/method/BSS_input_block/Gated_DualPathRNN/test_set/R000016-S000121-P001099_R000020-S036520-P327233.wav",
+        54400
+    ],
+    [
+        "/home/iman/storage/code/project/PERSONAL/military/GIT/iterative_bss/method/BSS_input_block/Gated_DualPathRNN/test_set/R000016-S000121-P001100_R000177-S007321-P085378.wav",
+        80000
+    ],
+    [
+        "/home/iman/storage/code/project/PERSONAL/military/GIT/iterative_bss/method/BSS_input_block/Gated_DualPathRNN/test_set/R000016-S000121-P001101_R000196-S002645-P022257.wav",
+        40960
+    ]
+]

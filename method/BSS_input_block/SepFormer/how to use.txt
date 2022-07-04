@@ -1,0 +1,5 @@
+local
+python method/BSS_input_block/SepFormer/train.py --conf_yaml=hparams/sepformer-customdataset-laptop.yaml
+
+server
+python method/BSS_input_block/SepFormer/train.py --conf_yaml=hparams/sepformer-customdataset-GPU.yaml

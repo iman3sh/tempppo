@@ -1,0 +1,7 @@
+/venv
+/outputs
+/localdata
+**/.idea/
+__pycache__
+**/**/temp.wav
+**/**/outputs

@@ -1,0 +1,4 @@
+# yamllint disable
+end-of-epoch: true
+si-snr: -13.549444303681748
+unixtime: 1656909313.5713046

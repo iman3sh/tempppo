@@ -1,0 +1,7 @@
+
+# @package dset
+train: ./outputs/json_file/train
+valid: ./outputs/json_file/valid
+test: ./outputs/json_file/test
+mix_json: ./outputs/json_file/train/mix.json
+mix_dir:
